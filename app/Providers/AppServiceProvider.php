@@ -3,9 +3,7 @@
 namespace App\Providers;
 
 use App\Category;
-use App\Comment;
 use App\Post;
-use App\User;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\View;
