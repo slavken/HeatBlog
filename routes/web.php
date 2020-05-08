@@ -18,6 +18,7 @@ Auth::routes(['verify' => true]);
 Route::get('/', 'PostController@index')->name('main');
 Route::get('about', 'IndexController@about');
 Route::get('contact', 'IndexController@contact');
+Route::get('profile/{name}', 'IndexController@profile');
 Route::get('category/{alias}', 'CategoryController@index')->name('category.show');
 Route::post('comment/{id}', 'CommentController@store')->name('comment.store');
 Route::resource('post', 'PostController');
