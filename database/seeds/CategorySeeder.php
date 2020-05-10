@@ -14,8 +14,8 @@ class CategorySeeder extends Seeder
     public function run()
     {
         $data = [
-            ['World', 'green'],
-            ['Opinion', 'blue'],
+            ['World', 'blue'],
+            ['Opinion', 'green'],
             ['Design', 'red'],
             ['LifeHacks'],
             ['Tech'],
